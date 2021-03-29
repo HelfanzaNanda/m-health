@@ -1,0 +1,110 @@
+.text-pink{
+    color: #FFB4B4;
+}
+.text-light-pink{
+    color: #D6D6D6; 
+}
+.text-light-pink.active{
+    color: black; 
+}
+.text-light-pink:active{
+    color: black; 
+}
+.text-active-pink{
+    color: #F25287;
+}
+.icon-login{
+    width: 90%;
+    height: 60%;
+}
+.btn-pink {
+    background: #F25287;
+}
+
+.bg-pink{
+    background: #D6D6D6;
+}
+
+.bg-grey{
+    background: #FAFAFA;
+}
+
+.home-card{
+    overflow: hidden;
+    position: relative;
+    height: 320px;
+    background: #F25287;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.mb-64px{
+    margin-bottom: 64px;
+}
+.text-red {
+    color: red;
+}
+.buble {
+    background: #FF6D9E;
+    position: absolute;
+    border-radius: 50%;
+}
+.buble1{
+    height: 256px;
+    width: 256px;
+    top: 70px;
+    left: -100px
+}
+
+.buble2{
+    height: 145px;
+    width: 145px;
+    top: 30px;
+    right: -70px;
+}
+.font-xs {
+    font-size: 12px;
+}
+
+.image-responsive{
+    object-fit: cover;
+    object-position: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.font-18px {
+    font-size: 17px;
+}
+.text-card-top {
+    line-height: 1.2;
+    font-size: 12px;
+}
+.font-40px{
+    font-size: 40px;
+}
+
+.topnav {
+    background-color: #FFB4B4;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: darkslategrey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .topnav a:hover {
+    border-bottom: 3px solid #F25287;
+  }
+  
+  .topnav a.active {
+    border-bottom: 3px solid #F25287;
+  }
