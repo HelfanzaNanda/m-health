@@ -2,16 +2,22 @@
     color: #FFB4B4;
 }
 .text-light-pink{
-    color: #D6D6D6; 
+    color: #D6D6D6;
 }
 .text-light-pink.active{
-    color: black; 
+    color: black;
 }
 .text-light-pink:active{
-    color: black; 
+    color: black;
 }
 .text-active-pink{
     color: #F25287;
+}
+.text-grey{
+    color: #bfbfbf;
+}
+.text-white{
+    color: #fff;
 }
 .icon-login{
     width: 90%;
@@ -19,6 +25,22 @@
 }
 .btn-pink {
     background: #F25287;
+    color: #fff;
+}
+
+.btn-pink:hover{
+    background: #ff8fad;
+    color: #F25287;
+    border-color: #F25287;
+}
+.btn-profile{
+    background: #ffffff;
+    color: #F25287;
+    border-color: #fce4ec;
+}
+.btn-profile:hover{
+    background: #F25287;
+    color: #f1f1f1;
 }
 
 .bg-pink{
@@ -33,6 +55,14 @@
     overflow: hidden;
     position: relative;
     height: 320px;
+    background: #F25287;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.summary-card{
+    overflow: hidden;
+    position: relative;
+    height: 220px;
     background: #F25287;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -61,6 +91,25 @@
     top: 30px;
     right: -70px;
 }
+
+.buble3{
+    height: 150px;
+    width: 150px;
+    top: 30px;
+    right: -70px;
+}
+
+.buble4{
+    height: 125px;
+    width: 125px;
+    top: 70px;
+    left: -30px;
+}
+.box-shadow {
+    box-shadow: 0 2px 5px 0
+    rgba(219, 219, 219, 0.5), 0
+    2px 10px 0 rgb(207, 207, 207);
+}
 .font-xs {
     font-size: 12px;
 }
@@ -88,7 +137,7 @@
     background-color: #FFB4B4;
     overflow: hidden;
   }
-  
+
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
@@ -100,11 +149,33 @@
     font-size: 17px;
     border-bottom: 3px solid transparent;
   }
-  
+
   .topnav a:hover {
     border-bottom: 3px solid #F25287;
   }
-  
+
   .topnav a.active {
-    border-bottom: 3px solid #F25287;
+    border-bottom: 3px solid #2b2728;
   }
+
+  .profile-card{
+    overflow: hidden;
+    position: relative;
+    height: 520px;
+    background: #F25287;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.thumb-lg {
+    height: 120px;
+    width: 120px;
+}
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
