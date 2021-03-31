@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.doctor')
 @section('content')
     <div class="summary-card mb-3">
         <div class="buble buble3"></div>

@@ -17,7 +17,6 @@ Route::prefix('pregnant-mother')->group(function(){
     Route::view('consultation', 'pregnant_mother.consultation.index');
     Route::view('health-education', 'pregnant_mother.health_education.index');
     Route::view('health-education/detail', 'pregnant_mother.health_education.detail');
-    Route::view('summary', 'pregnant_mother.summary.index');
 
     Route::prefix('profile')->group(function(){
         Route::view('', 'pregnant_mother.profile.index');
@@ -28,6 +27,12 @@ Route::prefix('pregnant-mother')->group(function(){
         Route::view('edit', 'pregnant_mother.profile.edit');
     });
 
+});
+
+Route::prefix('doctor')->group(function(){
+    Route::view('summary', 'doctor.summary.index');
+    Route::view('patient', 'doctor.patient.index');
+    Route::view('visit', 'doctor.visit.index');
 });
 
 Route::get('/', function () {
