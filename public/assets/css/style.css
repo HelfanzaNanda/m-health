@@ -67,6 +67,26 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+.profile-doctor-card{
+    overflow: hidden;
+    position: relative;
+    height: 350px;
+    background: #F25287;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.profile-patient-card{
+    overflow: hidden;
+    position: relative;
+    height: 490px;
+    background: #F25287;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
 .mb-64px{
     margin-bottom: 64px;
 }

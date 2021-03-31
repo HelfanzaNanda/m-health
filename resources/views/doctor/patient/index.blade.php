@@ -1,6 +1,6 @@
 @extends('layouts.doctor')
 @section('content')
-    <div class="container">
+    <div class="container box-shadow">
         <div class="col-12 shadow shadow-lg">
             <div class="row py-3">
                 <div class="col-auto"><i class="fas fa-angle-left"></i></div>
@@ -13,7 +13,7 @@
         <i class="fas fa-plus w-100 h-50 fa-lg my-auto"></i>
     </div>
 
-    <div class="container bg-grey pt-2" style="height: 83vh">
+    <div class="container bg-grey pt-2 mt-2" style="height: 83vh">
         <div class="col-12">
             <div class="input-group mb-3">
                 <div class="input-group-prepend">

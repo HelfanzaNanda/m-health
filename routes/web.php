@@ -31,8 +31,25 @@ Route::prefix('pregnant-mother')->group(function(){
 
 Route::prefix('doctor')->group(function(){
     Route::view('summary', 'doctor.summary.index');
-    Route::view('patient', 'doctor.patient.index');
     Route::view('visit', 'doctor.visit.index');
+    Route::view('report', 'doctor.report.index');
+    Route::view('profile', 'doctor.profile.index');
+
+    Route::prefix('patient')->group(function(){
+        Route::view('', 'doctor.patient.index');
+        
+        Route::prefix('profile')->group(function(){
+            Route::view('', 'doctor.patient.profile');
+            Route::view('identity', 'doctor.patient.identity');
+            Route::view('history-of-current-pregnancy', 'doctor.patient.history_pregnancy.current');
+            Route::view('previous-pregnancy-history', 'doctor.patient.history_pregnancy.previous');
+            Route::view('contraceptive-history', 'doctor.patient.history_pregnancy.contraseption');
+            Route::view('physical-examination', 'doctor.patient.physical-examination');
+            Route::view('lab-examination', 'doctor.patient.lab-examination');
+            Route::view('action', 'doctor.patient.action');
+            Route::view('references', 'doctor.patient.references');
+        });
+    });
 });
 
 Route::get('/', function () {
