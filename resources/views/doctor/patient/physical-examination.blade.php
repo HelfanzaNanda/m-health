@@ -23,13 +23,16 @@
                     </span>
                 </div>
             </div>
+            <div class="img mt-2">
+                <img src="{{ asset('images/chart.png') }}" alt="" height="150px" width="310px">
+            </div>
 
             <div class="tab-content" id="tab-chart">
                 <div class="tab-pane fade show active" id="physical" role="tabpanel" aria-labelledby="physical-tab">
-                    <div id="chart-physical">aa</div>
+                    <div id="chart-physical">..</div>
                 </div>
                 <div class="tab-pane fade" id="laboratory" role="tabpanel" aria-labelledby="laboratory-tab">
-                    <div id="chart-laboratory">bb</div>
+                    <div id="chart-laboratory">..</div>
                 </div>
             </div>
             <div class="nav topnav col-12" role="tablist">
@@ -44,10 +47,9 @@
             <table id="example" class="table table-striped table-bordered" style="width:100%">
                 <thead>
                     <tr>
-                        <th>Name</th>
-                        <th>Position</th>
-                        <th>Office</th>
-                        <th>Salary</th>
+                        <th>Nama Dokter</th>
+                        <th>Nama Pasien</th>
+                        <th>Rumah Sakit</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -55,37 +57,31 @@
                         <td>Tiger Nixon</td>
                         <td>System Architect</td>
                         <td>Edinburgh</td>
-                        <td>$320,800</td>
                     </tr>
                     <tr>
                         <td>Garrett Winters</td>
                         <td>Accountant</td>
                         <td>Tokyo</td>
-                        <td>$170,750</td>
                     </tr>
                     <tr>
                         <td>Ashton Cox</td>
                         <td>Junior Technical Author</td>
                         <td>San Francisco</td>
-                        <td>$86,000</td>
                     </tr>
                     <tr>
                         <td>Cedric Kelly</td>
                         <td>Senior Javascript Developer</td>
                         <td>Edinburgh</td>
-                        <td>$433,060</td>
                     </tr>
                     <tr>
                         <td>Airi Satou</td>
                         <td>Accountant</td>
                         <td>Tokyo</td>
-                        <td>$162,700</td>
                     </tr>
                     <tr>
                         <td>Brielle Williamson</td>
                         <td>Integration Specialist</td>
                         <td>New York</td>
-                        <td>$372,000</td>
                     </tr>
                 </tbody>
                 <tfoot>
@@ -93,7 +89,6 @@
                         <th>Name</th>
                         <th>Position</th>
                         <th>Office</th>
-                        <th>Salary</th>
                     </tr>
                 </tfoot>
             </table>

@@ -1,19 +1,19 @@
 @extends('layouts.doctor')
 @section('content')
-    <div class="summary-card mb-3">
+    <div class="summary summary-card mb-3">
         <div class="buble buble3"></div>
         <div class="buble buble4"></div>
         <div class="container" style="position: relative">
             <div class="row justify-content-between mx-2 pt-3 mb-4">
                 <div class="row">
                     <div class="mr-2 ml-2">
-                        <img src="{{ asset('images/logo/mhealth.png') }}" alt="m-health" width="20">
+                        <img src="{{ asset('images/logo/logo-white.png') }}" alt="m-health" width="20">
                     </div>
                     <div class="text-white"><b>mHealth</b></div>
                 </div>
                 <div>
-                    <i class="fas fa-comment-dots fa-lg text-white"></i>
-                    <i class="fas fa-bell fa-lg text-white"></i>
+                    <img src="{{ asset('images/message.png') }}" height="30" width="30px" alt="">
+                    <img src="{{ asset('images/notification.png') }}" height="30px" width="28px" alt="">
                 </div>
             </div>
             <div class="text-white mt-5">
@@ -25,17 +25,18 @@
     </div>
 
     <div class="container">
-        <h3 class="px-2">Ringkasan</h3>
-        <div class="row mb-2 px-2">
-            <div class="col-6 mb-2">
+        <h5 class="font-weight-bold">Ringkasan</h5>
+        <div class="row mb-2">
+            <div class="col-6">
                 <div class="card">
                     <div class="card-body rounded text-center bg-success text-white">
                         <h1>127</h1>
-                        <h6>Pasien yang Terdaftar</h6>
+                        <br>
+                        <h6>Pasien Terdaftar</h6>
                     </div>
                 </div>
             </div>
-            <div class="col-6 mb-2">
+            <div class="col-6">
                 <div class="card">
                     <div class="card-body rounded text-center bg-danger text-white">
                         <h1>49</h1>
