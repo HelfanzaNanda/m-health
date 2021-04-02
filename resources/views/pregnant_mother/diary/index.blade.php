@@ -10,7 +10,7 @@
             </div>
         </div>
     </div>
-    <div class="bg-grey pt-23" style="height: 100vh">
+    <div class="bg-grey pt-23" style="max-height: 86vh; overflow: hidden">
         <div class="container-mhealth " >
             <form action="">
                 @csrf

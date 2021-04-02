@@ -1,31 +1,33 @@
 @extends('layouts.app')
 @section('content')
     <div class="profile-card mb-3">
-        <div class="container" style="position: relative">
-            <div class="text-white mt-5 mb-4" style="position: relative;">
-                <h4 class="d-block font-weight-bold text-center">Profile</h4>
-            </div>
-            <div class="row">
-                <div class="thumb-lg member-thumb mx-auto">
-                    <img src="https://bootdey.com/img/Content/avatar/avatar2.png" class="rounded-circle img-thumbnail" alt="profile-image">
+        <div class="container-mhealth">
+            <div class="col-12 shadow shadow-lg">
+                <div class="row justify-content-center">
+                    <div class="text-header font-size-18 font-weight-500 text-white">Profil</div>
                 </div>
             </div>
-            <div class="text-white text-center mt-3">
-                <h2>Auristela Allisya</h2>
-                <h5 style="color: #eeeeee">24 Tahun</h5>
+            <div class="row mt-62 mb-20">
+                <div class="thumb-lg mx-auto">
+                    <img src="{{ asset('images/profile.png') }}" alt="profile-image" width="120" height="120">   
+                </div>
+            </div>
+            <div class="text-white text-center mt-3 mb-29">
+                <div class="font-size-24 font-weight-700">Auristela Allisya</div>
+                <div class="text-pink font-size-18">24 Tahun</div>
             </div>
             <div class="text-center">
-                <button type="button" class="btn btn-block btn-profile">Identitas Anda</button>
-                <button type="button" class="btn btn-block btn-profile">Riwayat Kehamilan Sekarang</button>
-                <button type="button" class="btn btn-block btn-profile">Riwayat Kontrasepsi</button>
-                <button type="button" class="btn btn-block btn-profile">Riwayat Kehamilan Sebelumnya</button>
+                <button type="button" class="btn btn-block btn-profile bg-pink-2 border-white text-white font-weight-500">Identitas Anda</button>
+                <button type="button" class="btn btn-block btn-profile bg-white text-active-pink font-weight-500">Riwayat Kehamilan Sekarang</button>
+                <button type="button" class="btn btn-block btn-profile bg-white text-active-pink font-weight-500">Riwayat Kontrasepsi</button>
+                <button type="button" class="btn btn-block btn-profile bg-white text-active-pink font-weight-500">Riwayat Kehamilan Sebelumnya</button>
             </div>
 
 
         </div>
     </div>
 
-    <div class="container">
+    <div class="container" style="max-height: 86vh; overflow: auto">
         <div class="card">
             <div class="card-body">
                 <div class="row">

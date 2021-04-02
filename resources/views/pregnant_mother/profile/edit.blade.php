@@ -1,28 +1,28 @@
 @extends('layouts.app')
 @section('content')
     <div class="container box-shadow">
-        <div class="col-12">
-            <div class="row py-3">
-                <div class="col-auto"><i class="fas fa-angle-left"></i></div>
-                <div class="col-auto text-pink">Edit Profil</div>
-            </div>
+        <div class="py-3">
+            <img src="{{ asset('images/icon/back.png') }}" width="18" height="18">
+        </div>
+        <div class="row justify-content-center">
+            <div class="text-header font-size-18 text-active-pink">Edit Profil</div>
         </div>
     </div>
-    <div class="container bg-grey pt-2 mt-3">
-        <div class="col-12">
+    <div class="pb-3 bg-grey" style="max-height: 86vh; overflow: auto">
+        <div class="container-mhealth pt-2">
             <form action="">
                 @csrf
                 <div class="form-group">
                     <label for="">Nama</label>
-                    <input type="text" name="" id="" class="form-control" placeholder="Nama Lengkap">
+                    <input type="text" name="" id="" class="form-control font-size-16 form-mhealth" placeholder="Nama Lengkap">
                 </div>
                 <div class="form-group">
                     <label for="">Tempat, Tanggal Lahir</label>
-                    <input type="text" name="" id="" class="form-control" placeholder="Jakarta, 20 Mei 1996">
+                    <input type="text" name="" id="" class="form-control font-size-16 form-mhealth" placeholder="Jakarta, 20 Mei 1996">
                 </div>
                 <div class="form-group">
                     <label for="">Agama</label>
-                    <select type="text" name="" id="" class="form-control">
+                    <select name="" id="" class="form-control font-size-16 form-mhealth">
                         <option value="">Islam</option>
                         <option value="">Konghucu</option>
                         <option value="">Budha</option>
@@ -31,34 +31,35 @@
                 </div>
                 <div class="form-group">
                     <label for="">Alamat</label>
-                    <textarea type="text" name="" id="" class="form-control" placeholder="Jakarta Utara"></textarea>
+                    <textarea type="text" name="" id="" class="form-control font-size-16 form-mhealth" placeholder="Jakarta Utara"></textarea>
                 </div>
                 <div class="form-group">
                     <label for="">Situasi Keluarga</label>
-                    <input type="text" name="" id="" class="form-control" placeholder="Bersama Keluarga">
+                    <input type="text" name="" id="" class="form-control font-size-16 form-mhealth" placeholder="Bersama Keluarga">
                 </div>
                 <div class="form-group">
                     <label for="">No HP</label>
-                    <input type="text" name="" id="" class="form-control" placeholder="08123456789">
+                    <input type="text" name="" id="" class="form-control font-size-16 form-mhealth" placeholder="08123456789">
                 </div>
                 <div class="form-group">
                     <label for="">Pendidikan</label>
-                    <input type="text" name="" id="" class="form-control" placeholder="Magister Ilmu Komputer">
+                    <input type="text" name="" id="" class="form-control font-size-16 form-mhealth" placeholder="Magister Ilmu Komputer">
                 </div>
                 <div class="form-group">
                     <label for="">Pekerjaan</label>
-                    <input type="text" name="" id="" class="form-control" placeholder="Kepala Dinas">
+                    <input type="text" name="" id="" class="form-control font-size-16 form-mhealth" placeholder="Kepala Dinas">
                 </div>
                 <div class="form-group">
                     <label for="">Suku</label>
-                    <input type="text" name="" id="" class="form-control" placeholder="Suku">
+                    <input type="text" name="" id="" class="form-control font-size-16 form-mhealth" placeholder="Suku">
                 </div>
                 <div class="form-group">
                     <label for="">Data Keluarga</label>
-                    <input type="text" name="" id="" class="form-control" placeholder="Data Keluarga">
+                    <input type="text" name="" id="" class="form-control font-size-16 form-mhealth" placeholder="Data Keluarga">
                 </div>
-                <button class="btn btn-block btn-pink text-white mt-3" type="submit">Simpan</button>
+                <button class="btn btn-block btn-mhealth btn-pink text-white mt-3" type="submit">Simpan Perubahan</button>
             </form>
         </div>
     </div>
+   
 @endsection

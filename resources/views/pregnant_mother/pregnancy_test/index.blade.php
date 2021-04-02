@@ -10,7 +10,7 @@
             </div>
         </div>
     </div>
-    <div class="bg-grey pt-23" style="height: 100vh">
+    <div class="bg-grey pt-23" style="max-height: 86vh; overflow: hidden">
     <div class="container-mhealth">
         <form action="">
             @csrf
@@ -20,7 +20,7 @@
             </div>
             <div class="form-group">
                 <label class="font-weight-500">Haid terakhir</label>
-                <input type="date" name="" id="" class="form-control font-size-16 form-mhealth">
+                <input type="text" name="" id="" class="datepicker form-control font-size-16 form-mhealth">
             </div>
             <div class="form-group">
                 <label class="font-weight-500">Riwayat Haid</label>
@@ -35,3 +35,11 @@
     </div>
     </div>
 @endsection
+@push('scripts')
+    <script>
+        $('.datepicker').datepicker({
+            autoclose : true,
+            format: 'dd/mm/yyyy'
+        });
+    </script>
+@endpush

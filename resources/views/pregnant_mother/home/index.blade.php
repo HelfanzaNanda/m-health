@@ -38,7 +38,7 @@
         </div>
     </div>
 
-    <div class="container-mhealth">
+    <div class="container-mhealth pb-5" style="max-height: 86vh; overflow: auto">
         <div class="d-flex justify-content-between mb-2">
             <div class="w-76 h-114">
                 <div class="box-home rounded bg-green mb-1px">
@@ -88,10 +88,9 @@
                 <div class="font-weight-500 line-height-23 font-18px d-inline-block">
                     Kenali tanda - tanda pada kehamilan
                 </div>
-                <div class="d-inline-block" style="color: #BBBBBB">11 Jam yang lalu</div>
+                <div class="d-inline-block font-14" style="color: #BBBBBB">11 Jam yang lalu</div>
             </div>
         </div>
-
         <hr>
         <div class="d-flex">
             <div class="mr-19 h-94 w-94 d-inline-block">
@@ -102,10 +101,9 @@
                 <div class="font-weight-500 line-height-23 font-18px d-inline-block">
                     Kenali tanda - tanda pada kehamilan
                 </div>
-                <div class="d-inline-block" style="color: #BBBBBB">11 Jam yang lalu</div>
+                <div class="d-inline-block font-14" style="color: #BBBBBB">11 Jam yang lalu</div>
             </div>
         </div>
-
         <hr>
         <div class="d-flex">
             <div class="mr-19 h-94 w-94 d-inline-block">
@@ -116,7 +114,7 @@
                 <div class="font-weight-500 line-height-23 font-18px d-inline-block">
                     Kenali tanda - tanda pada kehamilan
                 </div>
-                <div class="d-inline-block" style="color: #BBBBBB">11 Jam yang lalu</div>
+                <div class="d-inline-block font-14" style="color: #BBBBBB">11 Jam yang lalu</div>
             </div>
         </div>
         

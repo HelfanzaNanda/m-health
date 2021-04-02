@@ -3,29 +3,32 @@
   @include('layouts._head')
   <body>
     <div class="mt-3">
-        <div class="container">
+        <div class="container-mhealth pb-3">
             <div class="row justify-content-center align-items-center mb-5">
                 <div class="mr-2">
                     <img src="{{ asset('images/logo/mhealth.png') }}" alt="m-health" width="20">
                 </div>
-                <div class="text-pink"><b>mHealth</b></div>
+                <div class="text-active-pink font-weight-500 font-size-19"><b>mHealth</b></div>
             </div>
             <div class="mb-3">
-                <x-icon-welcome />
+                <img src="{{ asset('images/welcome.png') }}" width="378" height="260">
             </div>
-            <div class="row justify-content-center my-auto">
-                <h4>Selamat Datang di mHealth !</h4>
-                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tempora fugit eius
-                    sapiente id, laborum impedit provident suscipit velit aliquam.</p>
+            <div class="d-flex flex-column text-center justify-content-center">
+
+                <div class="font-weight-700 font-size-24">Selamat Datang di mHealth !</div>
+                <div class="mb-auto"><p class="text-center">Neque tristique bibendum adipiscing nunc, fringilla aliquam aliquet donec habitasse placerat.</p></div>
             </div>
-            <h6>Saya adalah seorang ... </h6>
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" name="role" id="role" value="Ibu Hamil">
-                <div class="input-group-prepend btn-choose-role">
-                    <span class="input-group-text"><i class="fas fa-angle-right"></i></span>
+            <div class="d-flex flex-column" style="position: absolute; bottom: 20px; width: 88%;">
+                <h6>Saya adalah seorang ... </h6>
+                <div class="input-group mb-3">
+                    <input type="text" readonly class="bg-white btn-choose-role form-control border-right-none font-size-16 form-mhealth" name="role" id="role" value="Ibu Hamil">
+                    <div class="input-group-prepend btn-choose-role">
+                        <span class="input-group-text bg-white border-left-none"><i class="fas fa-angle-right"></i></span>
+                    </div>
                 </div>
+                <button class="btn btn-block btn-mhealth btn-pink text-white">Selanjutnya</button>
             </div>
-            <button class="btn btn-block btn-pink text-white">Selanjutnya</button>
+            
         </div>
     </div>
 
