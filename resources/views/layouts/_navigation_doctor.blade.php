@@ -3,8 +3,9 @@
         <div class="row justify-content-around">
             <div>
                 <a class="navbar-brand text-center" href="#">
-                    <i class="fas fa-home fa-sm"></i>
-                    <p class="font-xs">Home</p>
+                    <img src="{{ asset('images/home.png') }}" alt="">
+                    {{-- <i class="fas fa-home fa-sm"></i> --}}
+                    <p class="font-xs text-light-pink">Home</p>
                 </a>
             </div>
             <div>

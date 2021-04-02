@@ -1,26 +1,34 @@
 @extends('layouts.doctor')
 @section('content')
-    <div class="container box-shadow">
-        <div class="col-12">
-            <div class="row py-3">
-                <div class="col-auto"><i class="fas fa-angle-left"></i></div>
-                <div class="col-auto text-pink">Rujukan</div>
+<div class="patient">
+    <div class="container box-shadow bg-white">
+        <div class="col-12 shadow shadow-lg">
+            <div class="py-3">
+                <img src="{{ asset('images/icon/back.png') }}" width="18" height="18">
+            </div>
+            <div class="row justify-content-center">
+                <div class="text-header font-size-18 text-active-pink">Rujukan</div>
             </div>
         </div>
     </div>
     <div class="container bg-grey pt-2 mt-3">
         <div class="col-12">
-            <form action="">
+            <form action="" class="references">
                 @csrf
                 <div class="form-group">
                     <label for="">Tanggal</label>
                     <div class="input-group">
                         <div class="input-group-prepend">
-                            <span class="input-group-text" id="basic-addon1">
+                            <span class="input-group-text bg-white" id="basic-addon1">
                                 <i class="fas fa-calendar text-pink"></i>
                             </span>
                         </div>
-                        <input type="text" class="form-control datepicker">
+                        <input type="text" class="form-control datepicker" placeholder="27 Maret 2021">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-white" id="basic-addon1">
+                                <i class="fas fa-angle-down" text-pink></i>
+                            </span>
+                        </div>
                     </div>
                 </div>
                 <div class="form-group">
@@ -39,6 +47,7 @@
             </form>
         </div>
     </div>
+</div>
 @endsection
 
 @push('scripts')

@@ -2,9 +2,11 @@
 @section('content')
     <div class="container box-shadow">
         <div class="col-12 shadow shadow-lg">
-            <div class="row py-3">
-                <div class="col-auto"><i class="fas fa-angle-left"></i></div>
-                <div class="col-auto text-pink">Profil Pasien</div>
+            <div class="py-3">
+                <img src="{{ asset('images/icon/back.png') }}" width="18" height="18">
+            </div>
+            <div class="row justify-content-center">
+                <div class="text-header font-size-18 text-active-pink">Profil Pasien</div>
             </div>
         </div>
     </div>
@@ -15,7 +17,7 @@
                 <div class="container" style="position: relative">
                     <div class="row">
                         <div class="thumb-lg member-thumb mx-auto">
-                            <img src="{{ asset('images/profile.png') }}" class="rounded-circle img-thumbnail" alt="profile-image">
+                            <img src="{{ asset('images/profile.png') }}" alt="profile-image">
                         </div>
                     </div>
                     <div class="text-white text-center mt-3">

@@ -30,24 +30,24 @@ Route::prefix('pregnant-mother')->group(function(){
 });
 
 Route::prefix('doctor')->group(function(){
-    Route::view('summary', 'doctor.summary.index');
-    Route::view('visit', 'doctor.visit.index');
-    Route::view('report', 'doctor.report.index');
-    Route::view('profile', 'doctor.profile.index');
+    Route::view('summary', 'doctor.summary.index'); //belum
+    Route::view('visit', 'doctor.visit.index'); //belum
+    Route::view('report', 'doctor.report.index'); //oke
+    Route::view('profile', 'doctor.profile.index'); //belum
 
     Route::prefix('patient')->group(function(){
-        Route::view('', 'doctor.patient.index');
+        Route::view('', 'doctor.patient.index'); //belum
         
         Route::prefix('profile')->group(function(){
-            Route::view('', 'doctor.patient.profile');
-            Route::view('identity', 'doctor.patient.identity');
-            Route::view('history-of-current-pregnancy', 'doctor.patient.history_pregnancy.current');
+            Route::view('', 'doctor.patient.profile'); //belum
+            Route::view('identity', 'doctor.patient.identity'); //oke
+            Route::view('history-of-current-pregnancy', 'doctor.patient.history_pregnancy.current'); //oke
             Route::view('previous-pregnancy-history', 'doctor.patient.history_pregnancy.previous');
             Route::view('contraceptive-history', 'doctor.patient.history_pregnancy.contraseption');
-            Route::view('physical-examination', 'doctor.patient.physical-examination');
-            Route::view('lab-examination', 'doctor.patient.lab-examination');
-            Route::view('action', 'doctor.patient.action');
-            Route::view('references', 'doctor.patient.references');
+            Route::view('physical-examination', 'doctor.patient.physical-examination'); //belum
+            Route::view('lab-examination', 'doctor.patient.lab-examination'); //belum
+            Route::view('action', 'doctor.patient.action'); //belum
+            Route::view('references', 'doctor.patient.references'); //belum
         });
     });
 });

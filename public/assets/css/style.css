@@ -5,27 +5,134 @@
     font-family: inter, sans-serif;
 }
 
+input[type=text]{
+    border: 1px solid #FFB4B4;
+    border-radius: 4px;
+}
+
+/* Start Background Color*/
+.bg-green{
+    background: #58D874;
+}
+.bg-blue {
+    background: #619ED7;
+}
+.bg-red{
+    background: #DB3A3A;
+}
+.bg-yellow{
+    background: #FFB240;
+}
+.bg-pink{
+    background: #D6D6D6;
+}
+.bg-grey{
+    background: #FAFAFA;
+}
+/* End Background Color*/
+
+/* Start Button Style */
+.btn-pink {
+    background: #F25287;
+    color: #fff;
+}
+.btn-pink:hover{
+    background: #ff8fad;
+    color: #F25287;
+    border-color: #F25287;
+}
+.btn-profile{
+    background: #ffffff;
+    color: #F25287;
+    border-color: #fce4ec;
+}
+.btn-profile:hover{
+    background: #F25287;
+    color: #f1f1f1;
+}
+.btn-mhealth{
+    height: 53px;
+}
+/* End Button Style */
+
+/* Start Nav Bottom */
+.bottom-nav {
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .bottom-nav img {
+    float: left;
+    display: block;
+    color: #D6d6d6;
+    text-align: center;
+    padding: 0 16px;
+    padding-top: 3px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .bottom-nav a:hover {
+    background: #fff;
+    color: #F25287;
+  }
+
+  .bottom-nav a.active {
+    background-color: #fff;
+    color: #F25287;
+  }
+  .border-nav-bottom {
+    border: solid 1px #EDEDED;
+}
+/* End Nav Bottom */
+
+/* Start Bubble */
+.buble {
+    background: #FF6D9E;
+    position: absolute;
+    border-radius: 50%;
+}
+.buble1{
+    height: 256px;
+    width: 256px;
+    top: 70px;
+    left: -100px
+}
+.buble2{
+    height: 145px;
+    width: 145px;
+    top: 30px;
+    right: -70px;
+}
+.buble3{
+    height: 150px;
+    width: 150px;
+    top: 30px;
+    right: -70px;
+}
+.buble4{
+    height: 125px;
+    width: 125px;
+    top: 70px;
+    left: -30px;
+}
+/* End Bubble */
+
+.box-shadow {
+    box-shadow: 0 1px 2px 0
+    rgba(238, 238, 238, 0.5), 0
+    1px 5px 0 rgb(235, 235, 235);
+}
+
 .container-mhealth {
     margin: 0 25px;
 }
-.mb-37 {
-    margin-bottom: 37px;
-}
-.mb-41{
-    margin-bottom: 41px;
-}
-.mb-34{
-    margin-bottom: 34px;
-}
-.ml-25{
-    margin-left: 25px;
-}
 
-.mr-19{
-    margin-right: 19px;
-}
-
-.font-size-18 {
+/* Start Font Size */
+.font-size-18{
     font-size: 18px;
 }
 .font-size-16{
@@ -37,6 +144,26 @@
 .text-black{
     color: black;
 }
+.font-xs {
+    font-size: 12px;
+}
+.font-18px {
+    font-size: 17px;
+}
+.font-40px{
+    font-size: 40px;
+}
+/* End Font Size */
+
+.font-weight-500{
+    font-weight: 500;
+}
+
+.form-mhealth{
+    height: 51px;
+    border: solid 1px #FFB4B4;
+}
+
 .text-header{
     position: absolute;
     top: 15px;
@@ -49,15 +176,34 @@
 .mr-15{
     margin-right: 15px;
 }
+/* Start Margin Bottom */
+.mb-37 {
+    margin-bottom: 37px;
+}
+.mb-41{
+    margin-bottom: 41px;
+}
+.mb-34{
+    margin-bottom: 34px;
+}
+.mb-64px{
+    margin-bottom: 64px;
+}
 .mb-20{
     margin-bottom: 20px;
 }
 .mb-1px{
     margin-bottom: 3px;
 }
-.pt-23{
-    padding-top: 23px;
+/* End Margin Bottom */
+
+/* Start Margin Left */
+.ml-25{
+    margin-left: 25px;
 }
+/* End Margin Left */
+
+/* Start Margin Right */
 .mr-5px {
     margin-right: 5px;
 }
@@ -88,15 +234,23 @@
 .border-nav-bottom {
     border: solid 1px #EDEDED;
 }
+.mr-15{
+    margin-right: 15px;
+}
+.mr-19{
+    margin-right: 19px;
+}
+/* End Margin Right */
 
-.font-weight-500{
-    font-weight: 500;
+.pt-23{
+    padding-top: 23px;
 }
 
 .line-height-23{
     line-height: 23.4px;
 }
 
+/* Start Widht & Height */
 .w-76{
     width: 76px;
 }
@@ -121,6 +275,7 @@
 .h-40{
     height: 40px;
 }
+/* End Widht & Height */
 
 .bg-green{
     background: #58D874;
@@ -211,6 +366,7 @@ input[type=text]{
 .bg-grey{
     background: #FAFAFA;
 }
+
 .lh-15 {
     line-height: 15.6px;
 }
@@ -219,6 +375,7 @@ input[type=text]{
     margin-top: 62px;
 }
 
+/* Start Page Home */
 .box-home{
     width: 76px;
     height: 76px;
@@ -235,55 +392,45 @@ input[type=text]{
 .bg-pink-2{
     background: #F25287;
 }
+/* End Page Home */
 
+/* Start Page Doctor */
 .profile-doctor-card{
     overflow: hidden;
     position: relative;
     height: 350px;
     background: #F25287;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
+.doctor-name{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+/* End Page Doctor */
 
-.mb-64px{
-    margin-bottom: 64px;
+/* Start Text Color */
+.text-pink{
+    color: #FFB4B4;
 }
-.text-red {
-    color: red;
+.text-light-pink{
+    color: #D6D6D6;
 }
-.buble {
-    background: #FF6D9E;
-    position: absolute;
-    border-radius: 50%;
+.text-light-pink.active{
+    color: black;
 }
-.buble1{
-    height: 256px;
-    width: 256px;
-    top: 70px;
-    left: -100px
+.text-light-pink:active{
+    color: black;
 }
-
-.buble2{
-    height: 145px;
-    width: 145px;
-    top: 30px;
-    right: -70px;
+.text-active-pink{
+    color: #F25287;
 }
-
-.buble3{
-    height: 150px;
-    width: 150px;
-    top: 30px;
-    right: -70px;
-}
-
-.buble4{
-    height: 125px;
-    width: 125px;
-    top: 70px;
-    left: -30px;
+.text-grey{
+    color: #bfbfbf;
 }
 .box-shadow {
     box-shadow: 0 1px 2px 0
@@ -293,9 +440,13 @@ input[type=text]{
 .text-gray{
     color: #242424;
 }
-.font-xs {
-    font-size: 12px;
+.text-white{
+    color: #fff;
 }
+.text-red {
+    color: red;
+}
+/* End Text Color */
 
 .font-14{
     font-size: 14px;
@@ -335,9 +486,6 @@ input[type=text]{
 .text-card-top {
     line-height: 1.2;
     font-size: 12px;
-}
-.font-40px{
-    font-size: 40px;
 }
 
 
@@ -381,9 +529,9 @@ input[type=text]{
     width: 120px;
 }
 .img-thumbnail {
-    padding: .25rem;
+    padding: .1rem;
     background-color: #fff;
-    border: 1px solid #dee2e6;
+    border: 1px #dee2e6;
     border-radius: .25rem;
     max-width: 100%;
     height: auto;
@@ -412,39 +560,7 @@ input[type=text]{
     line-height: 24.19px;
 }
 
-
-
-
-.bottom-nav {
-    overflow: hidden;
-    background-color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  
-  .bottom-nav img {
-    float: left;
-    display: block;
-    color: #D6d6d6;
-    text-align: center;
-    padding: 0 16px;
-    padding-top: 3px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .bottom-nav a:hover {
-    background: #fff;
-    color: #F25287;
-  }
-  
-  .bottom-nav a.active {
-    background-color: #fff;
-    color: #F25287;
-  }
-
-/* Page Summary */
+/* Start Page Summary */
 .summary{
     font-family: inter;
 }
@@ -456,10 +572,15 @@ input[type=text]{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-
 /* End Page Summary */
 
-/* Page Patient */
+/* Start Page Patient */
+.patient{
+    background: #FAFAFA;
+}
+.profile-patient{
+    color: #C7C7C7;
+}
 .profile-patient-card{
     overflow: hidden;
     position: relative;
@@ -470,8 +591,28 @@ input[type=text]{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-
 .card-action{
     border: 1px solid #FFB4B4;
 }
+
+/* Page References Patient*/
+.references{
+    font-weight: 500;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19px;
+    color: #000000;
+}
+/* End Page References Patient*/
+
+/* Page Visit Patient*/
+.visit{
+    font-weight: 500;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19px;
+    color: #000000;
+}
+/* End Page Visit Patient*/
+
 /* End Page Patient */
