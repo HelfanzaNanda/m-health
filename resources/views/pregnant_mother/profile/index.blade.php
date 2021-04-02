@@ -7,7 +7,7 @@
             </div>
             <div class="row">
                 <div class="thumb-lg member-thumb mx-auto">
-                    <img src="https://bootdey.com/img/Content/avatar/avatar2.png" class="rounded-circle img-thumbnail" alt="profile-image">
+                    <img src="{{ asset('images/icon/profil.png') }}" alt="profile-image">
                 </div>
             </div>
             <div class="text-white text-center mt-3">

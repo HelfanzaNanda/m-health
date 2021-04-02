@@ -12,13 +12,13 @@
         <div class="col-12">
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon1">
+                    <span class="input-group-text bg-white" id="basic-addon1">
                         <i class="fas fa-calendar text-pink"></i>
                     </span>
                 </div>
                 <input type="text" class="form-control datepicker">
                 <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon1">
+                    <span class="input-group-text bg-white" id="basic-addon1">
                         <i class="fas fa-angle-down" text-pink></i>
                     </span>
                 </div>
