@@ -1,3 +1,105 @@
+.container-mhealth {
+    margin: 0 25px;
+}
+.mb-37 {
+    margin-bottom: 37px;
+}
+.mb-41{
+    margin-bottom: 41px;
+}
+.mb-34{
+    margin-bottom: 34px;
+}
+.ml-25{
+    margin-left: 25px;
+}
+
+.mr-19{
+    margin-right: 19px;
+}
+
+.font-size-18{
+    font-size: 18px;
+}
+.font-size-16{
+    font-size: 16px;
+}
+.text-header{
+    position: absolute;
+    top: 15px;
+}
+
+.mr-15{
+    margin-right: 15px;
+}
+.mb-1px{
+    margin-bottom: 3px;
+}
+.pt-23{
+    padding-top: 23px;
+}
+.mr-5px {
+    margin-right: 5px;
+}
+
+.btn-mhealth{
+    height: 53px;
+}
+
+.form-mhealth{
+    height: 51px;
+    border: solid 1px #FFB4B4;
+}
+.border-nav-bottom {
+    border: solid 1px #EDEDED;
+}
+
+.font-weight-500{
+    font-weight: 500;
+}
+
+.line-height-23{
+    line-height: 23.4px;
+}
+
+.w-76{
+    width: 76px;
+}
+.h-114{
+    height: 114px;
+}
+.w-94{
+    width: 94px;
+}
+.w-251{
+    width: 251px;
+}
+.w-31{
+    width: 31px;
+}
+.h-94{
+    height: 94px;
+}
+.h-39{
+    height: 39px;
+}
+.h-40{
+    height: 40px;
+}
+
+.bg-green{
+    background: #58D874;
+}
+.bg-blue {
+    background: #619ED7;
+}
+.bg-red{
+    background: #DB3A3A;
+}
+.bg-yellow{
+    background: #FFB240;
+}
+
 .text-pink{
     color: #FFB4B4;
 }
@@ -50,11 +152,19 @@
 .bg-grey{
     background: #FAFAFA;
 }
+.lh-15 {
+    line-height: 15.6px;
+}
+
+.box-home{
+    width: 76px;
+    height: 76px;
+}
 
 .home-card{
     overflow: hidden;
     position: relative;
-    height: 320px;
+    height: 350px;
     background: #F25287;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -132,6 +242,10 @@
 }
 .font-xs {
     font-size: 12px;
+}
+
+.rounded-4{
+    border-radius: 4px;
 }
 
 .image-responsive{
@@ -218,3 +332,39 @@
     width: 50px;
     height: 50px;
 }
+.text-title-mhealth{
+    font-size:  19px;
+    line-height: 24.19px;
+}
+
+
+
+
+.bottom-nav {
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .bottom-nav img {
+    float: left;
+    display: block;
+    color: #D6d6d6;
+    text-align: center;
+    padding: 0 16px;
+    padding-top: 3px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .bottom-nav a:hover {
+    background: #fff;
+    color: #F25287;
+  }
+  
+  .bottom-nav a.active {
+    background-color: #fff;
+    color: #F25287;
+  }
