@@ -34,7 +34,7 @@
                     <div class="font-weight-bold font-18px block">
                         Auristela Allisya
                     </div>
-                    <div class="d-inline-block" style="color: #BBBBBB">25 Tahun</div>
+                    <div class="d-inline-block text-pink">25 Tahun</div>
                 </div>
             </div>
             <hr>
@@ -47,7 +47,7 @@
                     <div class="font-weight-bold font-18px block">
                         Auristela Allisya
                     </div>
-                    <div class="d-inline-block" style="color: #BBBBBB">25 Tahun</div>
+                    <div class="d-inline-block text-pink">25 Tahun</div>
                 </div>
             </div>
             <hr>
@@ -60,7 +60,7 @@
                     <div class="font-weight-bold font-18px block">
                         Auristela Allisya
                     </div>
-                    <div class="d-inline-block" style="color: #BBBBBB">25 Tahun</div>
+                    <div class="d-inline-block text-pink">25 Tahun</div>
                 </div>
             </div>
             <hr>
@@ -73,7 +73,7 @@
                     <div class="font-weight-bold font-18px block">
                         Auristela Allisya
                     </div>
-                    <div class="d-inline-block" style="color: #BBBBBB">25 Tahun</div>
+                    <div class="d-inline-block text-pink">25 Tahun</div>
                 </div>
             </div>
             <hr>
@@ -86,7 +86,7 @@
                     <div class="font-weight-bold font-18px block">
                         Auristela Allisya
                     </div>
-                    <div class="d-inline-block" style="color: #BBBBBB">25 Tahun</div>
+                    <div class="d-inline-block text-pink">25 Tahun</div>
                 </div>
             </div>
             <hr>
@@ -99,7 +99,7 @@
                     <div class="font-weight-bold font-18px block">
                         Auristela Allisya
                     </div>
-                    <div class="d-inline-block" style="color: #BBBBBB">25 Tahun</div>
+                    <div class="d-inline-block text-pink">25 Tahun</div>
                 </div>
             </div>
             <hr>
@@ -112,7 +112,7 @@
                     <div class="font-weight-bold font-18px block">
                         Auristela Allisya
                     </div>
-                    <div class="d-inline-block" style="color: #BBBBBB">25 Tahun</div>
+                    <div class="d-inline-block text-pink">25 Tahun</div>
                 </div>
             </div>
             <hr>
@@ -125,7 +125,7 @@
                     <div class="font-weight-bold font-18px block">
                         Auristela Allisya
                     </div>
-                    <div class="d-inline-block" style="color: #BBBBBB">25 Tahun</div>
+                    <div class="d-inline-block text-pink">25 Tahun</div>
                 </div>
             </div>
 

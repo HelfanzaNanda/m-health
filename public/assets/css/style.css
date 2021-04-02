@@ -4,6 +4,10 @@
     font-family: inter;
 }
 
+input[type=text]{
+    border: 1px solid #FFB4B4;
+    border-radius: 4px;
+}
 .text-pink{
     color: #FFB4B4;
 }
@@ -234,5 +238,9 @@
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+.card-action{
+    border: 1px solid #FFB4B4;
 }
 /* End Page Patient */
