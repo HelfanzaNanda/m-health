@@ -14,7 +14,14 @@
                 @csrf
                 <div class="form-group">
                     <label for="">Tanggal</label>
-                    <input type="text" name="" id="" class="form-control datepicker" placeholder="Silahkan Pilih Tanggal">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">
+                                <i class="fas fa-calendar text-pink"></i>
+                            </span>
+                        </div>
+                        <input type="text" class="form-control datepicker">
+                    </div>
                 </div>
                 <div class="form-group">
                     <label for="">Nama Pasien</label>

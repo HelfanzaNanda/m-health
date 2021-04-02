@@ -12,7 +12,7 @@
     <div class="container mt-4">
         <form action="">
             @csrf
-            <div class="card mb-3">
+            <div class="card mb-3 card-action">
                 <div class="card-body">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
@@ -22,7 +22,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card mb-3">
+            <div class="card mb-3 card-action">
                 <div class="card-body">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card mb-3">
+            <div class="card mb-3 card-action">
                 <div class="card-body">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
@@ -42,7 +42,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card mb-5">
+            <div class="card mb-5 card-action">
                 <div class="card-body">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">

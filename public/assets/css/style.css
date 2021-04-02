@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+*{
+    font-family: inter;
+}
+
 .container-mhealth {
     margin: 0 25px;
 }
@@ -100,6 +106,10 @@
     background: #FFB240;
 }
 
+input[type=text]{
+    border: 1px solid #FFB4B4;
+    border-radius: 4px;
+}
 .text-pink{
     color: #FFB4B4;
 }
@@ -169,14 +179,7 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-.summary-card{
-    overflow: hidden;
-    position: relative;
-    height: 220px;
-    background: #F25287;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
+
 .profile-doctor-card{
     overflow: hidden;
     position: relative;
@@ -187,16 +190,7 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-.profile-patient-card{
-    overflow: hidden;
-    position: relative;
-    height: 490px;
-    background: #F25287;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
+
 .mb-64px{
     margin-bottom: 64px;
 }
@@ -368,3 +362,35 @@
     background-color: #fff;
     color: #F25287;
   }
+
+/* Page Summary */
+.summary{
+    font-family: inter;
+}
+.summary-card{
+    overflow: hidden;
+    position: relative;
+    height: 198px;
+    background: #F25287;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* End Page Summary */
+
+/* Page Patient */
+.profile-patient-card{
+    overflow: hidden;
+    position: relative;
+    height: 490px;
+    background: #F25287;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.card-action{
+    border: 1px solid #FFB4B4;
+}
+/* End Page Patient */
