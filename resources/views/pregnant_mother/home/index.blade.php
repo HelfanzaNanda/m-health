@@ -7,9 +7,8 @@
             <div class="row justify-content-between pt-3 mb-41">
                 <div class="row">
                     <div class="ml-25 mr-5px">
-                        <img src="{{ asset('images/logo/mhealth1.png') }}" alt="m-health" width="24" height="31">
+                        <img src="{{ asset('images/logo/logo-mhealth.png') }}" alt="m-health" width="116px" height="31px">
                     </div>
-                    <div class="text-white text-title-mhealth"><b>mHealth</b></div>
                 </div>
                 <div class="mr-15">
                     <img src="{{ asset('images/icon/notification.png') }}" width="25" height="25">
@@ -20,7 +19,7 @@
                 <div>Halo ibu,</div>
                 <h4 class="d-block font-weight-bold">Auristela Allisya</h4>
             </div>
-           
+
 
             <div class="card card-home">
                 <div class="card-body shadow text-center" style="height: 150px">
@@ -42,7 +41,7 @@
         <div class="d-flex justify-content-between mb-2">
             <div class="w-76 h-114">
                 <div class="box-home rounded bg-green mb-1px">
-                    <div class="card-body "> 
+                    <div class="card-body ">
                         <img src="{{ asset('images/icon/diary.png') }}" width="38" height="38">
                     </div>
                 </div>
@@ -50,7 +49,7 @@
             </div>
             <div class="w-76 h-114">
                 <div class="box-home rounded bg-blue mb-1px">
-                    <div class="card-body "> 
+                    <div class="card-body ">
                         <img src="{{ asset('images/icon/pemeriksaan.png') }}" width="38" height="38">
                     </div>
                 </div>
@@ -58,7 +57,7 @@
             </div>
             <div class="w-76 h-114">
                 <div class="box-home rounded bg-red mb-1px">
-                    <div class="card-body "> 
+                    <div class="card-body ">
                         <img src="{{ asset('images/icon/catatan.png') }}" width="38" height="38">
                         {{-- <i class="fas fa-list-ul fa-2x text-white"></i>  --}}
                     </div>
@@ -67,7 +66,7 @@
             </div>
             <div class="w-76 h-114">
                 <div class="box-home rounded bg-yellow mb-1px">
-                    <div class="card-body "> 
+                    <div class="card-body ">
                         <img src="{{ asset('images/icon/telekonsultasi.png') }}" width="38" height="38">
                         {{-- <i class="fas fa-user-md fa-2x text-white"></i>  --}}
                     </div>
@@ -76,7 +75,7 @@
             </div>
         </div>
 
-        <h4 class="font-weight-bold">Untuk ibu ketahui</h4>
+        <h4 class="font-weight-bold font-20 mt-4">Untuk ibu ketahui</h4>
 
         <hr>
         <div class="d-flex">
@@ -117,6 +116,6 @@
                 <div class="d-inline-block font-14" style="color: #BBBBBB">11 Jam yang lalu</div>
             </div>
         </div>
-        
+
     </div>
 @endsection

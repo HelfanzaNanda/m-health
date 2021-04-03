@@ -6,7 +6,7 @@
                 <img src="{{ asset('images/icon/back.png') }}" width="18" height="18">
             </div>
             <div class="row justify-content-center">
-                <div class="text-header font-size-18 text-active-pink">Profil Pasien</div>
+                <div class="text-header font-size-18 text-active-pink font-weight-500">Profil Pasien</div>
             </div>
         </div>
     </div>
@@ -55,7 +55,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 mb-2">
-                        <a href="#" style="color: black" class="font-weight-bold">Rujukan<i class="fa fa-angle-right float-right"></i></a>
+                        <a href="#" style="color: black" class="font-weight-bold">Rujukan <img src="{{ asset('images/next.png') }}" class="float-right"></a>
                     </div>
                 </div>
             </div>

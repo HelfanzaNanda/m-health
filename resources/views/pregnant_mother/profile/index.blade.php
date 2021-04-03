@@ -9,7 +9,7 @@
             </div>
             <div class="row mt-62 mb-20">
                 <div class="thumb-lg mx-auto">
-                    <img src="{{ asset('images/profile.png') }}" alt="profile-image" width="120" height="120">   
+                    <img src="{{ asset('images/profile.png') }}" alt="profile-image" width="120" height="120">
                 </div>
             </div>
             <div class="text-white text-center mt-3 mb-29">
@@ -32,22 +32,22 @@
             <div class="card-body">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 mb-2">
-                        <a href="#" style="color: black">Pemeriksaan Fisik <i class="fa fa-angle-right float-right"></i></a>
+                        <a href="#" style="color: black" class="font-weight-bold">Pemeriksaan Fisik <img src="{{ asset('images/next.png') }}" class="float-right"></a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 mb-2">
-                        <a href="#" style="color: black">Pemeriksaan Lab<i class="fa fa-angle-right float-right"></i></a>
+                        <a href="#" style="color: black" class="font-weight-bold">Pemeriksaan Lab <img src="{{ asset('images/next.png') }}" class="float-right"></a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 mb-2">
-                        <a href="#" style="color: black">Tindakan<i class="fa fa-angle-right float-right"></i></a>
+                        <a href="#" style="color: black" class="font-weight-bold">Tindakan <img src="{{ asset('images/next.png') }}" class="float-right"></a>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 mb-2">
-                        <a href="#" style="color: black">Rujukan<i class="fa fa-angle-right float-right"></i></a>
+                        <a href="#" style="color: black" class="font-weight-bold">Rujukan <img src="{{ asset('images/next.png') }}" class="float-right"></a>
                     </div>
                 </div>
             </div>

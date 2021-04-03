@@ -4,7 +4,7 @@
         <div class="col-12 shadow shadow-lg">
             <div class="row py-3">
                 <div class="col-auto"><i class="fas fa-angle-left"></i></div>
-                <div class="col-auto text-pink">Pemeriksaan Fisik</div>
+                <div class="col-auto font-size-18 text-active-pink font-weight-500">Pemeriksaan Fisik</div>
             </div>
         </div>
     </div>
