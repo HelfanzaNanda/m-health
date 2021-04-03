@@ -6,11 +6,11 @@
                 <img src="{{ asset('images/icon/back.png') }}" width="18" height="18">
             </div>
             <div class="row justify-content-center">
-                <div class="text-header font-size-18 text-active-pink">Diary Ibu Hamil</div>
+                <div class="text-header font-size-18 text-active-pink font-weight-500">Diary Ibu Hamil</div>
             </div>
         </div>
     </div>
-    <div class="bg-grey pt-23" style="max-height: 86vh; overflow: hidden">
+    <div class="bg-grey pt-23 mt-1" style="max-height: 86vh; overflow: hidden">
         <div class="container-mhealth " >
             <form action="">
                 @csrf
@@ -34,5 +34,5 @@
             </form>
         </div>
     </div>
-   
+
 @endsection

@@ -38,26 +38,32 @@
                     <input type="email" class="form-control bg-form-auth font-size-16 form-mhealth" name="email" id="email">
                 </div>
                 <label class="font-weight-500" for="password">Password</label>
-                <div class="input-group mb-2">
-                    <input type="password" class="form-control bg-form-auth font-size-16 form-mhealth border-right-none" 
+                <div class="input-group mb-3">
+                    <input type="password" class="form-control bg-form-auth 
+                    font-size-16 form-mhealth" 
+                    style="border-right: none !important"
                     name="password" id="password">
                     <div class="input-group-prepend">
-                        <span class="input-group-text bg-form-auth border-left-none">
-                            <img src="{{ asset('images/icon/hide-password.png') }}" width="18" height="18">
+                        <span class="input-group-text bg-form-auth"
+                        style="border-left: none !important">
+                            <img src="{{ asset('images/icon/hide-password.png') }}" alt="">
                         </span>
                     </div>
                 </div>
                 <label class="font-weight-500" for="password">Konfirmasi Password</label>
-                <div class="input-group mb-2">
-                    <input type="password" class="form-control bg-form-auth font-size-16 form-mhealth border-right-none" 
-                    name="confirmation_password" id="confirmation-password">
+                <div class="input-group mb-3">
+                    <input type="password" class="form-control bg-form-auth 
+                    font-size-16 form-mhealth" 
+                    style="border-right: none !important"
+                    name="password" id="password">
                     <div class="input-group-prepend">
-                        <span class="input-group-text bg-form-auth border-left-none">
-                            <img src="{{ asset('images/icon/hide-password.png') }}" width="18" height="18">
+                        <span class="input-group-text bg-form-auth"
+                        style="border-left: none !important">
+                            <img src="{{ asset('images/icon/hide-password.png') }}" alt="">
                         </span>
                     </div>
                 </div>
-                <div class="form-check my-2">
+                <div class="form-check py-3">
                     <input type="checkbox" class="form-check-input" id="perms">
                     <label class="form-check-label font-size-14" for="perms">
                         Saya menyatakan telah membaca dan menyetujui ketentuan dalam mobile health ini.

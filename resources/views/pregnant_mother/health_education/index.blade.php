@@ -1,12 +1,9 @@
 @extends('layouts.app')
 @section('content')
-    <div class="container">
+    <div class="container box-shadow" style="height: 60px">
         <div class="col-12 shadow shadow-lg">
-            <div class="py-3">
-                <img src="{{ asset('images/icon/back.png') }}" width="18" height="18">
-            </div>
             <div class="row justify-content-center">
-                <div class="text-header font-size-18 text-active-pink">Pendidikan Kesehatan</div>
+                <div class="text-header font-size-18 text-active-pink font-weight-500">Pendidikan Kesehatan</div>
             </div>
         </div>
     </div>
@@ -19,8 +16,7 @@
                         <img src="{{ asset('images/icon/search.png') }}" width="22" height="22">
                     </span>
                 </div>
-                <input type="text" 
-                class="form-control font-18px datepicker font-size-16 form-mhealth border-left-none" 
+                <input type="text" class="form-control font-18px datepicker font-size-16 form-mhealth border-left-none"
                 placeholder="Cari Artikel">
             </div>
 
@@ -99,7 +95,7 @@
                     </div>
                 </div>
                 <div class="tab-pane fade" id="health">
-                    
+
                 </div>
             </div>
         </div>

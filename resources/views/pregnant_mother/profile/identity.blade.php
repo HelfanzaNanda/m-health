@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <div class="container box-shadow">
-    <div class="mx-1 shadow shadow-lg">
+    <div class="shadow shadow-lg">
         <div class="d-flex justify-content-between align-items-center">
             <div class="py-3">
                 <img src="{{ asset('images/icon/back.png') }}" width="18" height="18">
@@ -10,14 +10,14 @@
                 <a href="" class="text-gray">Edit</a>
             </div>
         </div>
-        
+
         <div class="row justify-content-center">
             <div class="text-header font-size-18 text-active-pink">Profil</div>
         </div>
     </div>
 </div>
-<div class="bg-grey pt-3">
-    <div class="container">
+<div class="bg-grey pt-3 mt-1">
+    <div class="container-mhealth">
         <div class="card box-shadow">
             <div class="card-body">
                 <div class="form-group">

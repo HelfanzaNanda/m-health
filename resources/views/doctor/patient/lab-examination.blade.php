@@ -14,19 +14,22 @@
         <div class="container-mhealth ">
             <div class="input-group mb-3">
                 <div class="input-group-prepend ">
-                    <span class="input-group-text bg-white border-pink border-right-none" id="basic-addon1">
+                    <span class="input-group-text bg-white border-pink" 
+                    style="border-right: none !important">
                         <img src="{{ asset('images/icon/calendar.png') }}" width="22" height="22">
                     </span>
                 </div>
                 <input type="text" value="27 Maret 2021"
-                class="form-control text-pink text-center font-18px datepicker font-size-16 form-mhealth border-right-none border-left-none">
+                class="form-control text-pink text-center font-18px datepicker 
+                font-size-16 form-mhealth" 
+                style="border-left: none !important; border-right: none !important;">
                 <div class="input-group-prepend">
-                    <span class="input-group-text bg-white border-pink border-left-none" id="basic-addon1">
+                    <span class="input-group-text bg-white border-pink" id="basic-addon1"
+                    style="border-left: none !important">
                         <img src="{{ asset('images/icon/arrow-down.png') }}" width="22" height="22">
                     </span>
                 </div>
             </div>
-
             <div class="tab-content" id="tab-chart">
                 <div class="tab-pane fade show " id="physical" role="tabpanel" aria-labelledby="physical-tab">
                     <div id="chart-physical" class="chart" style="height: 147px;"></div>

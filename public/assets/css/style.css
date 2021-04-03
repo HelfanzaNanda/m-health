@@ -5,10 +5,10 @@
     font-family: inter, sans-serif;
 }
 
-input[type=text]{
+/* input[type=text]{
     border: 1px solid #FFB4B4;
     border-radius: 4px;
-}
+} */
 
 /* Start Background Color*/
 .bg-green{
@@ -28,6 +28,9 @@ input[type=text]{
 }
 .bg-grey{
     background: #FAFAFA;
+}
+.bg-input-auth{
+    background: #FFFAFA;
 }
 /* End Background Color*/
 
@@ -65,9 +68,9 @@ input[type=text]{
     position: fixed;
     bottom: 0;
     width: 100%;
-  }
+}
 
-  .bottom-nav img {
+.bottom-nav img {
     float: left;
     display: block;
     color: #D6d6d6;
@@ -76,18 +79,18 @@ input[type=text]{
     padding-top: 3px;
     text-decoration: none;
     font-size: 17px;
-  }
+}
 
-  .bottom-nav a:hover {
+.bottom-nav a:hover {
     background: #fff;
     color: #F25287;
-  }
+}
 
-  .bottom-nav a.active {
+.bottom-nav a.active {
     background-color: #fff;
     color: #F25287;
-  }
-  .border-nav-bottom {
+}
+.border-nav-bottom {
     border: solid 1px #EDEDED;
 }
 /* End Nav Bottom */
@@ -131,11 +134,41 @@ input[type=text]{
     z-index: 10;
 }
 
+.border-span{
+    border: 0.4px solid #FFB4B4;
+    border-left: none;
+    border-radius: 4px;
+}
+
+.form-mhealth{
+    height: 51px;
+    border: solid 1px #FFB4B4;
+}
+
+.border-right-none{
+    border-right: none !important;
+}
+.border-pink{
+    border: solid 1px #FFB4B4 !important;
+}
+.border-left-none{
+    border-left: none !important;
+}
+
+
+
+.border-nav-bottom {
+    border: solid 1px #EDEDED;
+}
+
 .container-mhealth {
     margin: 0 25px;
 }
 
 /* Start Font Size */
+.font-size-14{
+    font-size: 14px;
+}
 .font-size-18{
     font-size: 18px;
 }
@@ -163,20 +196,10 @@ input[type=text]{
     font-weight: 500;
 }
 
-.form-mhealth{
-    height: 51px;
-    border: solid 1px #FFB4B4;
-}
-
 .text-header{
     position: absolute;
     top: 15px;
 }
-
-.font-size-14{
-    font-size: 14px;
-}
-
 .mr-15{
     margin-right: 15px;
 }
@@ -242,20 +265,6 @@ input[type=text]{
     color: #FFB4B4;
 }
 
-
-.border-right-none{
-    border-right: 0 !important;
-}
-.border-pink{
-    border: solid 1px #FFB4B4 !important;
-}
-.border-left-none{
-    border-left: 0 !important;
-}
-
-.border-nav-bottom {
-    border: solid 1px #EDEDED;
-}
 .mr-15{
     margin-right: 15px;
 }
@@ -266,6 +275,9 @@ input[type=text]{
 
 .pt-23{
     padding-top: 23px;
+}
+.pt-39{
+    padding-top: 39px;
 }
 
 .line-height-23{
@@ -319,10 +331,10 @@ input[type=text]{
     background: #FFB240;
 }
 
-input[type=text]{
+/* input[type=text]{
     border: 1px solid #FFB4B4;
     border-radius: 4px;
-}
+} */
 .text-pink{
     color: #FFB4B4;
 }
@@ -419,10 +431,16 @@ input[type=text]{
 .bg-form-auth{
     background: #FFFAFA;
 }
+.card-home{
+    width: auto;
+    height: 169px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
 .home-card{
     overflow: hidden;
     position: relative;
-    height: 350px;
+    height: 380px;
     background: #F25287;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -672,5 +690,5 @@ input[type=text]{
 /* End Page Patient */
 
 #ui-datepicker-div {
-    z-index: 4;
+    z-index: 999999 !important;
 }

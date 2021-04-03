@@ -9,7 +9,7 @@
             </div>
             <div class="row mt-62 mb-20">
                 <div class="thumb-lg mx-auto">
-                    <img src="{{ asset('images/profile.png') }}" alt="profile-image" width="120" height="120">   
+                    <img src="{{ asset('images/profile.png') }}" alt="profile-image" width="120" height="120">
                 </div>
             </div>
             <div class="text-white text-center mt-3 mb-29">
@@ -17,7 +17,7 @@
                 <div class="text-pink font-size-18">24 Tahun</div>
             </div>
             <div class="text-center">
-                <button type="button" class="btn btn-block btn-profile bg-pink-2 border-white text-white font-weight-500">Identitas Anda</button>
+                <button type="button" class="btn btn-block btn-profile bg-white text-active-pink font-weight-500">Identitas Anda</button>
                 <button type="button" class="btn btn-block btn-profile bg-white text-active-pink font-weight-500">Riwayat Kehamilan Sekarang</button>
                 <button type="button" class="btn btn-block btn-profile bg-white text-active-pink font-weight-500">Riwayat Kontrasepsi</button>
                 <button type="button" class="btn btn-block btn-profile bg-white text-active-pink font-weight-500">Riwayat Kehamilan Sebelumnya</button>
@@ -27,29 +27,25 @@
         </div>
     </div>
 
-    <div class="container" style="max-height: 86vh; overflow: auto">
+    <div class="container" >
         <div class="card">
             <div class="card-body">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 mb-2">
-                        <a href="#" style="color: black">Pemeriksaan Fisik <i class="fa fa-angle-right float-right"></i></a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 mb-2">
-                        <a href="#" style="color: black">Pemeriksaan Lab<i class="fa fa-angle-right float-right"></i></a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 mb-2">
-                        <a href="#" style="color: black">Tindakan<i class="fa fa-angle-right float-right"></i></a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 mb-2">
-                        <a href="#" style="color: black">Rujukan<i class="fa fa-angle-right float-right"></i></a>
-                    </div>
-                </div>
+                <a href="#" class="d-flex justify-content-between mb-29">
+                    <span class="font-size-16 text-black font-weight-500">Pemeriksaan Fisik</span> 
+                    <img src="{{ asset('images/icon/next.png') }}" width="15" height="15">
+                </a>
+                <a href="#" class="d-flex justify-content-between mb-29">
+                    <span class="font-size-16 text-black font-weight-500">Pemeriksaan Lab</span> 
+                    <img src="{{ asset('images/icon/next.png') }}" width="15" height="15">
+                </a>
+                <a href="#" class="d-flex justify-content-between mb-29">
+                    <span class="font-size-16 text-black font-weight-500">Tindakan</span>
+                    <img src="{{ asset('images/icon/next.png') }}" width="15" height="15">
+                </a>
+                <a href="#" class="d-flex justify-content-between mb-29">
+                    <span class="font-size-16 text-black font-weight-500">Rujukan</span>
+                    <img src="{{ asset('images/icon/next.png') }}" width="15" height="15">
+                </a>
             </div>
         </div>
     </div>

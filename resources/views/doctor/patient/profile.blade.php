@@ -1,17 +1,6 @@
 @extends('layouts.doctor')
 @section('content')
-    <div class="container box-shadow">
-        <div class="col-12 shadow shadow-lg">
-            <div class="py-3">
-                <img src="{{ asset('images/icon/back.png') }}" width="18" height="18">
-            </div>
-            <div class="row justify-content-center">
-                <div class="text-header font-size-18 text-active-pink">Profil Pasien</div>
-            </div>
-        </div>
-    </div>
-
-    <div class="mb-3" style="max-height: 86vh; overflow: auto">
+    <div class="pb-4" style="max-height: 93vh; overflow: auto">
         <div class="profile-card mb-3">
             <div class="container-mhealth">
                 <div class="col-12 shadow shadow-lg">
@@ -52,7 +41,7 @@
                         <span class="font-size-16 text-black font-weight-500">Tindakan</span>
                         <img src="{{ asset('images/icon/next.png') }}" width="15" height="15">
                     </a>
-                    <a href="#" class="d-flex justify-content-between mb-29">
+                    <a href="#" class="d-flex justify-content-between">
                         <span class="font-size-16 text-black font-weight-500">Rujukan</span>
                         <img src="{{ asset('images/icon/next.png') }}" width="15" height="15">
                     </a>

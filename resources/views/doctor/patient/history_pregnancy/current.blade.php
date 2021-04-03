@@ -7,7 +7,7 @@
                 <img src="{{ asset('images/icon/back.png') }}" width="18" height="18">
             </div>
             <div class="row justify-content-center">
-                <div class="text-header font-size-18 text-active-pink">Riwayat Kehamilan Sekarang</div>
+                <div class="text-header font-size-18 text-active-pink font-weight-500">Riwayat Kehamilan Sekarang</div>
             </div>
         </div>
     </div>

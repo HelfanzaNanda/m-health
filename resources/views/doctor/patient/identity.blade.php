@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.doctor')
 @section('content')
 <div class="container box-shadow">
     <div class="mx-1 shadow shadow-lg">
@@ -13,6 +13,9 @@
         
         <div class="row justify-content-center">
             <div class="text-header font-size-18 text-active-pink">Profil Pasien</div>
+            <div class="row justify-content-center">
+                <div class="text-header font-size-18 text-active-pink font-weight-500">Profil Pasien</div>
+            </div>
         </div>
     </div>
 </div>

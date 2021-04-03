@@ -6,7 +6,7 @@
                 <img src="{{ asset('images/icon/back.png') }}" width="18" height="18">
             </div>
             <div class="row justify-content-center">
-                <div class="text-header font-size-18 text-active-pink">Pasien</div>
+                <div class="text-header font-size-18 text-active-pink font-weight-500">Pasien</div>
             </div>
         </div>
     </div>
@@ -19,12 +19,13 @@
         <div class="container-mhealth ">
             <div class="input-group mb-30">
                 <div class="input-group-prepend">
-                    <span class="input-group-text bg-white border-pink border-right-none" id="basic-addon1">
+                    <span class="input-group-text bg-white border-pink" style="border-right: none !important" id="basic-addon1">
                         <img src="{{ asset('images/icon/search.png') }}" width="22" height="22">
                     </span>
                 </div>
                 <input type="text" 
-                class="form-control font-18px datepicker font-size-16 form-mhealth border-left-none" 
+                class="form-control font-18px datepicker font-size-16 form-mhealth"
+                style="border-left: none !important" 
                 placeholder="Cari Artikel">
             </div>
             <div class="row align-items-center">
