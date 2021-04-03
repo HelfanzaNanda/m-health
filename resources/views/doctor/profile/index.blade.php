@@ -11,11 +11,10 @@
             </div>
         </div>
     </div>
-
-    <div class="container pt-2 mt-2">
-        <div class="card profile-doctor-card">
-            <div class="card-body">
-                <div class="container">
+    <div class="bg-grey pt-23" style="height: 86vh; overflow: hidden">
+        <div class="container-mhealth h-100" >
+            <div class="card profile-doctor-card">
+                <div class="card-body">
                     <div class="row mt-3">
                         <div class="thumb-lg member-thumb mx-auto">
                             <img src="{{ asset('images/profile.png') }}" class="rounded-circle img-thumbnail" alt="profile-image">
@@ -23,9 +22,9 @@
                     </div>
                     <div class="text-white text-center mt-3">
                         <h2 class="doctor-name">Auristela Allisya</h2>
-                        <h5 class="text-pink">Bidan</h5>
+                        <h5 class="text-pink font-size-18">Bidan</h5>
                     </div>
-                    <div class="text-center">
+                    <div class="text-center mx-2">
                         <button type="button" class="btn btn-block btn-profile">Identitas Anda</button>
                     </div>
                 </div>

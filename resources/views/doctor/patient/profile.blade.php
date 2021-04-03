@@ -11,56 +11,56 @@
         </div>
     </div>
 
-    <div class="container pt-2 mt-2">
-        <div class="card profile-patient-card">
-            <div class="card-body">
-                <div class="container" style="position: relative">
-                    <div class="row">
-                        <div class="thumb-lg member-thumb mx-auto">
-                            <img src="{{ asset('images/profile.png') }}" alt="profile-image">
-                        </div>
+    <div class="mb-3" style="max-height: 86vh; overflow: auto">
+        <div class="profile-card mb-3">
+            <div class="container-mhealth">
+                <div class="col-12 shadow shadow-lg">
+                    <div class="row justify-content-center">
+                        <div class="text-header font-size-18 font-weight-500 text-white">Profil</div>
                     </div>
-                    <div class="text-white text-center mt-3">
-                        <h2>Auristela Allisya</h2>
-                        <h5 style="color: #FFB4B4">24 Tahun</h5>
+                </div>
+                <div class="row mt-62 mb-20">
+                    <div class="thumb-lg mx-auto">
+                        <img src="{{ asset('images/profile.png') }}" alt="profile-image" width="120" height="120">   
                     </div>
-                    <div class="text-center mt-3">
-                        <button type="button" class="btn btn-block btn-profile">Identitas Anda</button>
-                        <button type="button" class="btn btn-block btn-profile">Riwayat Kehamilan Sekarang</button>
-                        <button type="button" class="btn btn-block btn-profile">Riwayat Kontrasepsi</button>
-                        <button type="button" class="btn btn-block btn-profile">Riwayat Kehamilan Sebelumnya</button>
-                    </div>
+                </div>
+                <div class="text-white text-center mt-3 mb-29">
+                    <div class="font-size-24 font-weight-700">Auristela Allisya</div>
+                    <div class="text-pink font-size-18">24 Tahun</div>
+                </div>
+                <div class="text-center">
+                    <button type="button" class="btn btn-block btn-profile bg-white text-active-pink font-weight-500">Identitas Pasien</button>
+                    <button type="button" class="btn btn-block btn-profile bg-white text-active-pink font-weight-500">Riwayat Kehamilan Sekarang</button>
+                    <button type="button" class="btn btn-block btn-profile bg-white text-active-pink font-weight-500">Riwayat Kontrasepsi</button>
+                    <button type="button" class="btn btn-block btn-profile bg-white text-active-pink font-weight-500">Riwayat Kehamilan Sebelumnya</button>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container" >
+            <div class="card">
+                <div class="card-body">
+                    <a href="#" class="d-flex justify-content-between mb-29">
+                        <span class="font-size-16 text-black font-weight-500">Pemeriksaan Fisik</span> 
+                        <img src="{{ asset('images/icon/next.png') }}" width="15" height="15">
+                    </a>
+                    <a href="#" class="d-flex justify-content-between mb-29">
+                        <span class="font-size-16 text-black font-weight-500">Pemeriksaan Lab</span> 
+                        <img src="{{ asset('images/icon/next.png') }}" width="15" height="15">
+                    </a>
+                    <a href="#" class="d-flex justify-content-between mb-29">
+                        <span class="font-size-16 text-black font-weight-500">Tindakan</span>
+                        <img src="{{ asset('images/icon/next.png') }}" width="15" height="15">
+                    </a>
+                    <a href="#" class="d-flex justify-content-between mb-29">
+                        <span class="font-size-16 text-black font-weight-500">Rujukan</span>
+                        <img src="{{ asset('images/icon/next.png') }}" width="15" height="15">
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="container mt-3">
-        <div class="card">
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 mb-2">
-                        <a href="#" style="color: black" class="font-weight-bold">Pemeriksaan Fisik <img src="{{ asset('images/next.png') }}" class="float-right"></a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 mb-2">
-                        <a href="#" style="color: black" class="font-weight-bold">Pemeriksaan Lab <img src="{{ asset('images/next.png') }}" class="float-right"></a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 mb-2">
-                        <a href="#" style="color: black" class="font-weight-bold">Tindakan <img src="{{ asset('images/next.png') }}" class="float-right"></a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 mb-2">
-                        <a href="#" style="color: black" class="font-weight-bold">Rujukan<i class="fa fa-angle-right float-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+   
 @endsection
 
 @push('scripts')

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
-    <div class="container">
-        <div class="col-12 shadow shadow-lg">
+    <div class="container box-shadow">
+        <div class="shadow shadow-lg">
             <div class="py-3">
                 <img src="{{ asset('images/icon/back.png') }}" width="18" height="18">
             </div>

@@ -41,6 +41,9 @@ input[type=text]{
     color: #F25287;
     border-color: #F25287;
 }
+.bg-dark-pink{
+    background: #E82B6A;
+}
 .btn-profile{
     background: #ffffff;
     color: #F25287;
@@ -125,6 +128,7 @@ input[type=text]{
     box-shadow: 0 1px 2px 0
     rgba(238, 238, 238, 0.5), 0
     1px 5px 0 rgb(235, 235, 235);
+    z-index: 10;
 }
 
 .container-mhealth {
@@ -177,14 +181,29 @@ input[type=text]{
     margin-right: 15px;
 }
 /* Start Margin Bottom */
+.mb-23 {
+    margin-bottom: 23px;
+}
 .mb-37 {
     margin-bottom: 37px;
+}
+.mb-29 {
+    margin-bottom: 29px;
+}
+.mb-37 {
+    margin-bottom: 37px;
+}
+.mb-30 {
+    margin-bottom: 30px;
 }
 .mb-41{
     margin-bottom: 41px;
 }
 .mb-34{
     margin-bottom: 34px;
+}
+.mb-8{
+    margin-bottom: 8px;
 }
 .mb-64px{
     margin-bottom: 64px;
@@ -194,6 +213,9 @@ input[type=text]{
 }
 .mb-1px{
     margin-bottom: 3px;
+}
+.mb-14{
+    margin-bottom: 14px;
 }
 /* End Margin Bottom */
 
@@ -248,6 +270,13 @@ input[type=text]{
 
 .line-height-23{
     line-height: 23.4px;
+}
+
+.line-height-17{
+    line-height: 17px;
+}
+.line-height-67{
+    line-height: 67px;
 }
 
 /* Start Widht & Height */
@@ -318,6 +347,9 @@ input[type=text]{
 .font-size-24{
     font-size: 24px;
 }
+.font-size-25{
+    font-size: 25px;
+}
 .text-grey{
     color: #bfbfbf;
 }
@@ -375,12 +407,18 @@ input[type=text]{
     margin-top: 62px;
 }
 
+.mt-33{
+    margin-top: 33px;
+}
+
 /* Start Page Home */
 .box-home{
     width: 76px;
     height: 76px;
 }
-
+.bg-form-auth{
+    background: #FFFAFA;
+}
 .home-card{
     overflow: hidden;
     position: relative;
@@ -398,7 +436,7 @@ input[type=text]{
 .profile-doctor-card{
     overflow: hidden;
     position: relative;
-    height: 350px;
+    height: 330px;
     background: #F25287;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -454,8 +492,14 @@ input[type=text]{
 .font-20{
     font-size: 20px;
 }
+.font-size-55{
+    font-size: 55px;
+}
 .font-weight-700{
     font-weight: 700;
+}
+.font-weight-800{
+    font-weight: 800;
 }
 .font-size-19{
     font-size: 19px;
@@ -552,8 +596,8 @@ input[type=text]{
     line-height: 50px;
     vertical-align: middle;
     background: #F25287;
-    width: 50px;
-    height: 50px;
+    width: 52px;
+    height: 52px;
 }
 .text-title-mhealth{
     font-size:  19px;
@@ -564,10 +608,20 @@ input[type=text]{
 .summary{
     font-family: inter;
 }
+.box-summary{
+    width: 177px;
+    height: 137px;
+}
+.w-177{
+    width: 177px;
+}
+.h-137{
+    height: 137px;
+}
 .summary-card{
     overflow: hidden;
     position: relative;
-    height: 198px;
+    height: 170px;
     background: #F25287;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -616,3 +670,7 @@ input[type=text]{
 /* End Page Visit Patient*/
 
 /* End Page Patient */
+
+#ui-datepicker-div {
+    z-index: 4;
+}

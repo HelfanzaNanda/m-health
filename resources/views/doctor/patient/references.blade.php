@@ -2,7 +2,7 @@
 @section('content')
 <div class="patient">
     <div class="container box-shadow bg-white">
-        <div class="col-12 shadow shadow-lg">
+        <div class="shadow shadow-lg">
             <div class="py-3">
                 <img src="{{ asset('images/icon/back.png') }}" width="18" height="18">
             </div>
@@ -11,39 +11,40 @@
             </div>
         </div>
     </div>
-    <div class="container bg-grey pt-2 mt-3">
-        <div class="col-12">
+    <div class="mb-3" style="height: 86vh; overflow: hidden">
+        <div class="container-mhealth mt-3 h-100">
             <form action="" class="references">
                 @csrf
                 <div class="form-group">
-                    <label for="">Tanggal</label>
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text bg-white" id="basic-addon1">
-                                <i class="fas fa-calendar text-pink"></i>
+                    <label class="font-weight-500">Tanggal</label>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend ">
+                            <span class="input-group-text bg-white border-pink border-right-none" id="basic-addon1">
+                                <img src="{{ asset('images/icon/calendar.png') }}" width="22" height="22">
                             </span>
                         </div>
-                        <input type="text" class="form-control datepicker" placeholder="27 Maret 2021">
+                        <input type="text" value="27 Maret 2021"
+                        class="form-control text-pink text-center font-18px datepicker font-size-16 form-mhealth border-right-none border-left-none">
                         <div class="input-group-prepend">
-                            <span class="input-group-text bg-white" id="basic-addon1">
-                                <i class="fas fa-angle-down" text-pink></i>
+                            <span class="input-group-text bg-white border-pink border-left-none" id="basic-addon1">
+                                <img src="{{ asset('images/icon/arrow-down.png') }}" width="22" height="22">
                             </span>
                         </div>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="">Nama Pasien</label>
-                    <input type="text" name="" id="" class="form-control" placeholder="Nama Lengkap">
+                    <label class="font-weight-500">Nama Pasien</label>
+                    <input type="text" name="" id="" class="form-control font-size-16 form-mhealth" placeholder="Nama Lengkap">
                 </div>
                 <div class="form-group">
-                    <label for="">Nomor Surat</label>
-                    <input type="text" name="" id="" class="form-control" placeholder="Nomor Surat">
+                    <label class="font-weight-500">Nomor Surat</label>
+                    <input type="text" name="" id="" class="form-control font-size-16 form-mhealth" placeholder="Nomor Surat">
                 </div>
                 <div class="form-group">
-                    <label for="">Tujuan</label>
-                    <input type="text" name="" id="" class="form-control" placeholder="RS Tujuan">
+                    <label class="font-weight-500">Tujuan</label>
+                    <input type="text" name="" id="" class="form-control font-size-16 form-mhealth" placeholder="RS Tujuan">
                 </div>
-                <button class="btn btn-block btn-pink text-white mt-3" type="submit">Simpan</button>
+                <button class="btn btn-block bg-dark-pink btn-mhealth text-white mt-3" type="submit">Simpan</button>
             </form>
         </div>
     </div>

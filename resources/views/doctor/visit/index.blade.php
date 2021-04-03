@@ -11,31 +11,33 @@
             </div>
         </div>
     </div>
-    <div class="container bg-grey pt-2 mt-3">
-        <div class="col-12">
-            <form action="" class="visit">
+    <div class="bg-grey pt-23" style="height: 86vh; overflow: hidden">
+        <div class="container-mhealth h-100" >
+            <form action="" class="visit h-100">
                 @csrf
-                <label for="">Tanggal Kunjungan</label>
+                <label class="font-weight-500">Tanggal Kunjungan</label>
                 <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text bg-white" id="basic-addon1">
-                            <i class="fas fa-calendar text-pink"></i>
+                    <div class="input-group-prepend ">
+                        <span class="input-group-text bg-white border-pink border-right-none" id="basic-addon1">
+                            <img src="{{ asset('images/icon/calendar.png') }}" width="22" height="22">
                         </span>
                     </div>
-                    <input type="text" class="form-control datepicker" placeholder="27 Maret 2021">
+                    <input type="text" value="27 Maret 2021"
+                    class="form-control text-pink text-center font-18px datepicker font-size-16 form-mhealth border-right-none border-left-none">
                     <div class="input-group-prepend">
-                        <span class="input-group-text bg-white" id="basic-addon1">
-                            <i class="fas fa-angle-down" text-pink></i>
+                        <span class="input-group-text bg-white border-pink border-left-none" id="basic-addon1">
+                            <img src="{{ asset('images/icon/arrow-down.png') }}" width="22" height="22">
                         </span>
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="">Nama Pasien</label>
-                    <input type="text" name="patient_name" id="patient-name" class="form-control">
+                    <label class="font-weight-500">Nama Pasien</label>
+                    <input type="text" name="patient_name" id="patient-name" 
+                    class="form-control font-size-16 form-mhealth">
                 </div>
 
-                <button class="btn btn-pink btn-block">Simpan</button>
+                <button class="btn bg-dark-pink text-white btn-mhealth btn-block">Simpan</button>
             </form>
         </div>
     </div>

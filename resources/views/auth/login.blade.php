@@ -27,21 +27,21 @@
                 @csrf
                 <div class="form-group">
                     <label class="font-weight-500" for="username">Username</label>
-                    <input type="text" class="form-control font-size-16 form-mhealth" 
+                    <input type="text" class="form-control bg-form-auth font-size-16 form-mhealth" 
                     name="username" id="username">
                 </div>
                 <label class="font-weight-500" for="password">Password</label>
                 <div class="input-group mb-3">
-                    <input type="password" class="form-control font-size-16 form-mhealth border-right-none" 
+                    <input type="password" class="form-control bg-form-auth font-size-16 form-mhealth border-right-none" 
                     name="password" id="password">
                     <div class="input-group-prepend">
-                        <span class="input-group-text bg-white border-left-none">
+                        <span class="input-group-text bg-form-auth border-left-none">
                             <img src="{{ asset('images/icon/hide-password.png') }}" alt="">
                         </span>
                     </div>
                 </div>
                 <div class="text-right mb-3"><a href="" class="text-black font-size-14"><u>Forgot Password ?</u></a></div>
-                <button class="btn btn-mhealth btn-pink text-white btn-block" type="submit">Masuk Sekarang</button>
+                <button class="btn btn-mhealth bg-dark-pink text-white btn-block" type="submit">Masuk Sekarang</button>
             </form>
             <p class="text-center">ibu juga bisa masuk dengan</p>
             <div class="row justify-content-center">

@@ -27,32 +27,32 @@
                 @csrf
                 <div class="mb-2">
                     <label class="font-weight-500" for="fullname">Nama Lengkap</label>
-                    <input type="text" class="form-control font-size-16 form-mhealth" name="fullname" id="fullname">
+                    <input type="text" class="form-control bg-form-auth font-size-16 form-mhealth" name="fullname" id="fullname">
                 </div>
                 <div class="mb-2">
                     <label class="font-weight-500" for="nik">NIK</label>
-                    <input type="number" class="form-control font-size-16 form-mhealth" name="nik" id="nik">
+                    <input type="number" class="form-control bg-form-auth font-size-16 form-mhealth" name="nik" id="nik">
                 </div>
                 <div class="mb-2">
                     <label class="font-weight-500" for="email">Email</label>
-                    <input type="email" class="form-control font-size-16 form-mhealth" name="email" id="email">
+                    <input type="email" class="form-control bg-form-auth font-size-16 form-mhealth" name="email" id="email">
                 </div>
                 <label class="font-weight-500" for="password">Password</label>
                 <div class="input-group mb-2">
-                    <input type="password" class="form-control font-size-16 form-mhealth border-right-none" 
+                    <input type="password" class="form-control bg-form-auth font-size-16 form-mhealth border-right-none" 
                     name="password" id="password">
                     <div class="input-group-prepend">
-                        <span class="input-group-text bg-white border-left-none">
+                        <span class="input-group-text bg-form-auth border-left-none">
                             <img src="{{ asset('images/icon/hide-password.png') }}" width="18" height="18">
                         </span>
                     </div>
                 </div>
                 <label class="font-weight-500" for="password">Konfirmasi Password</label>
                 <div class="input-group mb-2">
-                    <input type="password" class="form-control font-size-16 form-mhealth border-right-none" 
+                    <input type="password" class="form-control bg-form-auth font-size-16 form-mhealth border-right-none" 
                     name="confirmation_password" id="confirmation-password">
                     <div class="input-group-prepend">
-                        <span class="input-group-text bg-white border-left-none">
+                        <span class="input-group-text bg-form-auth border-left-none">
                             <img src="{{ asset('images/icon/hide-password.png') }}" width="18" height="18">
                         </span>
                     </div>
@@ -63,7 +63,7 @@
                         Saya menyatakan telah membaca dan menyetujui ketentuan dalam mobile health ini.
                     </label>
                 </div>
-                <button class="btn btn-pink text-white btn-block" type="submit">Daftar Sekarang</button>
+                <button class="btn bg-dark-pink text-white btn-block" type="submit">Daftar Sekarang</button>
             </form>
         </div>
     </div>
