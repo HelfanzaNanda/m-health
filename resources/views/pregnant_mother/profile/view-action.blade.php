@@ -1,14 +1,15 @@
 @extends('layouts.app')
 @section('content')
-<div class="container box-shadow">
-    <div class="col-12">
-        <div class="row py-3">
-            <div class="col-auto"><i class="fas fa-angle-left"></i></div>
-            <div class="col-auto text-pink">Tindakan</div>
-        </div>
-</div>
-</div>
 <div class="bg-grey">
+    <div class="container box-shadow bg-white">
+        <div class="col-12">
+            <div class="row py-3">
+                <div class="col-auto"><i class="fas fa-angle-left"></i></div>
+                <div class="col-auto font-size-18 text-active-pink font-weight-500">Tindakan</div>
+            </div>
+        </div>
+    </div>
+
     <div class="container mt-4">
             <div class="card mb-3">
                 <div class="card-body">

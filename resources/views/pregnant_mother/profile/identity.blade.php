@@ -10,13 +10,13 @@
                 <a href="" class="text-gray">Edit</a>
             </div>
         </div>
-        
+
         <div class="row justify-content-center">
             <div class="text-header font-size-18 text-active-pink">Profil</div>
         </div>
     </div>
 </div>
-<div class="bg-grey pt-3">
+<div class="bg-grey pt-3 mt-1">
     <div class="container">
         <div class="card box-shadow">
             <div class="card-body">

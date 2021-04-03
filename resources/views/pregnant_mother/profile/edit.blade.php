@@ -5,10 +5,10 @@
             <img src="{{ asset('images/icon/back.png') }}" width="18" height="18">
         </div>
         <div class="row justify-content-center">
-            <div class="text-header font-size-18 text-active-pink">Edit Profil</div>
+            <div class="text-header font-size-18 text-active-pink font-weight-500">Edit Profil</div>
         </div>
     </div>
-    <div class="pb-3 bg-grey" style="max-height: 86vh; overflow: auto">
+    <div class="pb-3 bg-grey mt-1" style="max-height: 86vh; overflow: auto">
         <div class="container-mhealth pt-2">
             <form action="">
                 @csrf
@@ -61,5 +61,5 @@
             </form>
         </div>
     </div>
-   
+
 @endsection
